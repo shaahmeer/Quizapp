@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .setPositiveButton("You won a gift ", (dialogInterface, i) -> nextpage()).
 
                     show();
+            
         } else {
             passStatus = "Failed";
             new AlertDialog.Builder(this)
@@ -141,5 +142,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
 
     }
+
 
 }
